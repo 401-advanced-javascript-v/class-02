@@ -17,7 +17,7 @@ function CarFactory(name, wheels) {
     {wheels},
     Vehicle()
   );
-
+  console.log(Object.freeze(car));
   return Object.freeze(car);
 }
 function MotorcycleFactory(name, wheels) {
